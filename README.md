@@ -1,4 +1,4 @@
-project is under construction.
+project is under construction. ( not started yet )
 
 Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was made by Suehiro under S-SIZE Project, improved by K4thos and currently developing by CD2, Strong FS and some features developed by PlasmoidThunder.
 
