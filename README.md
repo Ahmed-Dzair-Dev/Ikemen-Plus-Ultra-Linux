@@ -25,7 +25,7 @@ or
 
 - find linux alternatives for the unsupported or not working libs ( because " IPU " is a windows project )
 
-- Remplace DirectX with OpenDX
+- Remplace DirectX with OpenDX or DXVK
 
 - fix bugs
 
