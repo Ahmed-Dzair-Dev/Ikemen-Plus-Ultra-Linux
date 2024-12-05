@@ -10,18 +10,20 @@ Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was m
 ------------
 
 - i will use a compatibility layer capable of running Windows applications on linux
-like ( wine or proton )
+like ( wine or proton ) 🚫
 
-- masetring Cmake
+- masetring Cmake 🚫
 
 or
 
-- i will just install windows 7
+- i will just install windows 7 🚫
+
+- Asking Help from AI ✅
 
 ------------
 
 
-**A working linux excutable**
+**A working linux excutable** ✅
 
 ------------
 
