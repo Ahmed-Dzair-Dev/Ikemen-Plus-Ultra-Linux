@@ -29,7 +29,18 @@ or
 
 - find linux alternatives for the unsupported or not working libs ( because " IPU " is a windows project )
 
-- Remplace DirectX with OpenDX or DXVK
+- Remplace DirectX with OpenDX or DXVK 
+
+or
+
+- For a general approach to replacing DirectX in an Ikemen-style game engine :
+
+Replace DirectX rendering calls with SDL2 rendering
+
+Use SDL2 for window creation and input handling
+
+Use OpenGL for graphics rendering
+Ensure Lua scripting remains compatible
 
 - fix bugs
 
