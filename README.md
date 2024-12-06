@@ -33,7 +33,7 @@ or
 
 or
 
-- For a general approach to replacing DirectX in an Ikemen-style game engine :
+- For a general approach to replacing DirectX in the game engine :
 
 Replace DirectX rendering calls with SDL2 rendering
 
