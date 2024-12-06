@@ -40,6 +40,7 @@ Replace DirectX rendering calls with SDL2 rendering
 Use SDL2 for window creation and input handling
 
 Use OpenGL for graphics rendering
+
 Ensure Lua scripting remains compatible
 
 - fix bugs
