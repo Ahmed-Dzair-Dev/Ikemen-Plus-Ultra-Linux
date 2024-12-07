@@ -29,13 +29,15 @@ or
 
 - find linux alternatives for the unsupported or not working libs ( because " IPU " is a windows project )
 
-" compile the ssz lib to linux ( libssz.so ) " ✅
-
 " compile the rest of the game engine libs to linux "
 
+ssz.dll its now libssz.so ✅
 file.dll its now libfile.so ✅
+alert.dll its now libalert.so ✅
+shell.dll its now libshell.so ✅
+time.dll its now libtime.so ✅
 
-libmath.so ( not yet )
+libmath.so ( working in progress )
 
 
 - Remplace DirectX with OpenDX or DXVK 
