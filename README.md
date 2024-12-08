@@ -33,6 +33,8 @@ or
 
 " compile the rest of the game engine libs to linux "
 
+the dll folder :
+
 ssz.dll its now libssz.so ✅
 
 file.dll its now libfile.so ✅
@@ -43,7 +45,7 @@ shell.dll its now libshell.so ✅
 
 time.dll its now libtime.so ✅
 
-libmath.so ( working in progress )
+math.dll its now libmath.so ✅
 
 libregex.so ( not yet )
 
@@ -52,6 +54,10 @@ libsocket.so ( not yet )
 libsound.so ( not yet )
 
 libthread.so ( not yet )
+
+the alpha folder :
+
+lua.dll to liblua.so ( working in progress )
 
 
 - Remplace DirectX with OpenDX or DXVK 
