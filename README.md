@@ -20,6 +20,8 @@ or
 
 - Asking Help from AI ✅
 
+- converting those .vcxproj to CMakeLists.txt ✅
+
 ------------
 
 
@@ -42,6 +44,14 @@ shell.dll its now libshell.so ✅
 time.dll its now libtime.so ✅
 
 libmath.so ( working in progress )
+
+libregex.so ( not yet )
+
+libsocket.so ( not yet )
+
+libsound.so ( not yet )
+
+libthread.so ( not yet )
 
 
 - Remplace DirectX with OpenDX or DXVK 
