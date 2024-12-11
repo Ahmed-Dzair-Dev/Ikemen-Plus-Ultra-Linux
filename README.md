@@ -47,7 +47,7 @@ time.dll its now libtime.so ✅
 
 math.dll its now libmath.so ✅
 
-libregex.so ( not yet )
+regex.dll its now libregex.so ✅
 
 socket.dll its now libsocket.so ✅
 
