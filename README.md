@@ -51,7 +51,7 @@ libregex.so ( not yet )
 
 socket.dll its now libsocket.so ✅
 
-libsound.so ( not yet )
+sound.dll its now libsound.so ✅
 
 libthread.so ( not yet )
 
