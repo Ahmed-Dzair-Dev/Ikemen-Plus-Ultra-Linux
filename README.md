@@ -49,7 +49,7 @@ math.dll its now libmath.so ✅
 
 libregex.so ( not yet )
 
-libsocket.so ( not yet )
+socket.dll its now libsocket.so ✅
 
 libsound.so ( not yet )
 
