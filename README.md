@@ -53,7 +53,7 @@ socket.dll its now libsocket.so ✅
 
 sound.dll its now libsound.so ✅
 
-libthread.so ( not yet )
+thread.dll its now libthread.so ✅
 
 the alpha folder :
 
