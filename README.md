@@ -63,6 +63,14 @@ lua.dll to liblua.so ✅
 
 ( still working in progress )
 
+mesdialog ( not yet )
+
+ogg ( not yet )
+
+sdlplugin ( not yet )
+
+sdlplugin original ( not yet )
+
 
 - Remplace DirectX with OpenDX or DXVK 
 
