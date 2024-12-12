@@ -57,7 +57,11 @@ thread.dll its now libthread.so ✅
 
 the alpha folder :
 
-lua.dll to liblua.so ( working in progress )
+lua.dll to liblua.so ✅ 
+
+![alt text](https://cdn.discordapp.com/attachments/1309521159699828849/1316723999979339796/Screenshot_from_2024-12-12_13-10-22.png?ex=675c1649&is=675ac4c9&hm=53add28990c60ef4377d81d5623332321b304aa4703c3c9248a36a96f06249c4&)
+
+( still working in progress )
 
 
 - Remplace DirectX with OpenDX or DXVK 
