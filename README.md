@@ -19,8 +19,7 @@ Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was m
 ------------
 
 
-**A working linux excutable** ✅  ( 2025 marked as done again ) 
-
+**A working linux excutable** ✅  ( 2025/05/08 )
 ------------
 
 - find linux alternatives for the unsupported or not working libs ( because " IPU " is a windows project )
@@ -29,11 +28,11 @@ Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was m
 
 the dll folder :
 
-ssz.dll its now libssz.so ✅  ( 2025 marked as done again ) 
+ssz.dll its now libssz.so ✅  ( 2025/05/08 )
 
-file.dll its now libfile.so ✅
+file.dll its now libfile.so ✅ ( 2025/05/08 )
 
-alert.dll its now libalert.so ✅
+alert.dll its now libalert.so ✅ ( 2025/05/08 )
 
 shell.dll its now libshell.so ✅
 
