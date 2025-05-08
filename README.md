@@ -28,29 +28,29 @@ Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was m
 
 the dll folder :
 
-ssz.dll its now libssz.so ✅  ( 2025/05/08 )
+ssz.dll its now libssz.so ( 2025/05/08 )
 
-file.dll its now libfile.so ✅ ( 2025/05/08 )
+file.dll its now libfile.so ( 2025/05/08 )
 
-alert.dll its now libalert.so ✅ ( 2025/05/08 )
+alert.dll its now libalert.so ( 2025/05/08 )
 
-shell.dll its now libshell.so ✅ 
+shell.dll to libshell.so
 
-time.dll its now libtime.so ✅
+time.dll to libtime.so
 
-math.dll its now libmath.so ✅  ( 2025/05/08 )
+math.dll its now libmath.so ( 2025/05/08 )
 
-regex.dll its now libregex.so ✅ ( 2025/05/08 )
+regex.dll its now libregex.so ( 2025/05/08 )
 
-socket.dll its now libsocket.so ✅
+socket.dll to libsocket.so 
 
-sound.dll its now libsound.so ✅
+sound.dll to libsound.so 
 
-thread.dll its now libthread.so ✅ 
+thread.dll to libthread.so 
 
 the alpha folder :
 
-lua.dll to liblua.so ✅ ( planing to find a way to fix it )
+lua.dll to liblua.so ( planing to find a way to fix it )
 
 ( still working in progress )
 
