@@ -6,17 +6,11 @@ Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was m
 
 **Ahmed:** Plans for future updates.
 
-**find alternative of " Visual C++ 2010 Express " for linux**
-------------
-
-- i will use a compatibility layer capable of running Windows applications on linux
-like ( wine or proton ) 🚫
-
 - masetring Cmake 🚫
 
-or
+- masetring c++ and c
 
-- i will just install windows 7 🚫
+- learn what is SDL and OpenGL
 
 - Asking Help from AI ✅
 
@@ -25,7 +19,7 @@ or
 ------------
 
 
-**A working linux excutable** ✅
+**A working linux excutable** ✅  ( 2025 marked as done again ) 
 
 ------------
 
@@ -35,7 +29,7 @@ or
 
 the dll folder :
 
-ssz.dll its now libssz.so ✅
+ssz.dll its now libssz.so ✅  ( 2025 marked as done again ) 
 
 file.dll its now libfile.so ✅
 
