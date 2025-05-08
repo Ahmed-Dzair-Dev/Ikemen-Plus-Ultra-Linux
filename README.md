@@ -19,7 +19,7 @@ Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was m
 ------------
 
 
-**A working linux excutable** ✅  ( 2025/05/08 )
+**A working linux excutable**  ✅ ( 2025/05/08 )
 ------------
 
 - find linux alternatives for the unsupported or not working libs ( because " IPU " is a windows project )
