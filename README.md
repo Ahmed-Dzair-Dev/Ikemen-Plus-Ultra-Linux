@@ -42,7 +42,7 @@ math.dll its now libmath.so ( 2025/05/08 )
 
 regex.dll its now libregex.so ( 2025/05/08 )
 
-socket.dll to libsocket.so 
+socket.dll to libsocket.so ( 2025/05/09 )
 
 sound.dll to libsound.so 
 
