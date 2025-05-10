@@ -2,7 +2,7 @@ project is under construction.
 
 Ikemen Plus Ultra is an updated version of the OLD Ikemen Plus. The engine was made by Suehiro under S-SIZE Project, improved by K4thos and currently developing by CD2, Strong FS and some features developed by PlasmoidThunder.
 
-if you are intrested in the 32 bit i left a backup for it here [32Bit]([https://github.com](https://github.com/Ahmed-Dzair-Dev/Ikemen-Plus-Ultra-Linux/tree/32bit))
+if you are intrested in the 32 bit i left a backup for it here [32Bit](https://github.com](https://github.com/Ahmed-Dzair-Dev/Ikemen-Plus-Ultra-Linux/tree/32bit)
 
 ## TODO List
 
