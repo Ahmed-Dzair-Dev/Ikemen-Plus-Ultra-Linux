@@ -5403,7 +5403,7 @@ class JITer
 				}else{
 					(void)pjtr->bin.tPop(ktype.id);
 				}
-				pjtr->bin.removeStackTop(max(argsize, 0) + offset);
+				pjtr->bin.removeStackTop(std::max(argsize, 0) + offset);
 			}else{
 				pjtr->bin.removeStackTop(
 					offset + (argsize < 0 ? sizeof(intptr_t) : 0));
@@ -5795,7 +5795,7 @@ LOOPENTER:
 				case BYTE_TYPEID: case UBYTE_TYPEID:
 				case SHORT_TYPEID: case USHORT_TYPEID: case CHAR_TYPEID:
 				case INT_TYPEID: case ADDRESS_TYPEID: case UINT_TYPEID:
-					pjtr->bin.not();
+					pjtr->bin.bitwiseNot();
 					break;
 				case LONG_TYPEID: case ULONG_TYPEID:
 					pjtr->bin.not64();

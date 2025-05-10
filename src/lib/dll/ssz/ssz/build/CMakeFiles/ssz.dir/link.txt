@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -m32 -O3 -DNDEBUG -O3 -DNDEBUG -shared -Wl,-soname,libssz.so.1 -o lib/libssz.so.1.0.0 CMakeFiles/ssz.dir/ssz.cpp.o  -lpthread -ldl 

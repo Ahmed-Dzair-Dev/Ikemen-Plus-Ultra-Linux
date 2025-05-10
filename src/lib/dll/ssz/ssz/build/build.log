@@ -1,0 +1,47 @@
+[ 50%] Building CXX object CMakeFiles/ssz.dir/ssz.cpp.o
+In file included from /home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/ssz.cpp:162:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp: In member function ‘intptr_t SourceTree<GC>::delegate(Src&, std::__cxx11::basic_string<int>&, std::__cxx11::basic_string<int>*)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:21: error: expected ‘(’ before ‘each’
+ 2105 |                 for each(auto it in pst->rettype){
+      |                     ^~~~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:26: error: expected primary-expression before ‘auto’
+ 2105 |                 for each(auto it in pst->rettype){
+      |                          ^~~~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:21: error: there are no arguments to ‘each’ that depend on a template parameter, so a declaration of ‘each’ must be available [-fpermissive]
+ 2105 |                 for each(auto it in pst->rettype){
+      |                     ^~~~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:21: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:50: error: expected ‘;’ before ‘{’ token
+ 2105 |                 for each(auto it in pst->rettype){
+      |                                                  ^
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2117:20: error: could not convert ‘(intptr_t)(pst)->tk.std::__cxx11::basic_string<int>::operator+=()’ from ‘std::__cxx11::basic_string<int>’ to ‘bool’
+ 2117 |                 tk += (intptr_t)pst;
+      |                 ~~~^~~~~~~~~~~~~~~~
+      |                    |
+      |                    std::__cxx11::basic_string<int>
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2118:17: error: expected primary-expression before ‘if’
+ 2118 |                 if(!necessaryToken(src, *this, CHUUKAKKOOPEN_TOKEN)) return -1;
+      |                 ^~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2118:17: error: expected ‘)’ before ‘if’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:21: note: to match this ‘(’
+ 2105 |                 for each(auto it in pst->rettype){
+      |                     ^~~~
+In file included from /home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/ssz.cpp:459:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/jitcompiler.hpp: In member function ‘bool JITer::Compi::MainSwitchMain(JITer::SrcTree&, const intptr_t*, intptr_t&, std::__cxx11::basic_string<int>&, JITer::KuwashiiType&, JITer::SrcTree*&)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/jitcompiler.hpp:5798:51: error: expected unqualified-id before ‘not’ token
+ 5798 |                                         pjtr->bin.not();
+      |                                                   ^~~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp: In instantiation of ‘intptr_t SourceTree<GC>::delegate(Src&, std::__cxx11::basic_string<int>&, std::__cxx11::basic_string<int>*) [with GC = JunkanGoroshi; intptr_t = int; Src = Source<JunkanGoroshi>]’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:3933:20:   required from ‘bool SourceTree<GC>::Object(std::__cxx11::basic_string<int>&, intptr_t, Src&, TokenKind, SourceTree<GC>&, const std::__cxx11::basic_string<int>&, intptr_t&, TokenKind) [with GC = JunkanGoroshi; intptr_t = int; Src = Source<JunkanGoroshi>]’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:4429:7:   required from ‘bool SourceTree<GC>::CSorNanika(std::__cxx11::basic_string<int>&, Src&, TokenKind, TokenKind, TokenKind) [with GC = JunkanGoroshi; Src = Source<JunkanGoroshi>]’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:4457:8:   required from ‘bool SourceTree<GC>::ShikiEx(std::__cxx11::basic_string<int>&, Src&, TokenKind, TokenKind, TokenKind, int&) [with GC = JunkanGoroshi; Src = Source<JunkanGoroshi>]’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:8070:7:   required from ‘bool SourceTree<GC>::MakeTreeSwitch(std::__cxx11::basic_string<int>*, TokenKind) [with GC = JunkanGoroshi]’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:8444:8:   required from ‘bool SourceTree<GC>::MakeTree() [with GC = JunkanGoroshi]’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:8502:7:   required from ‘bool SourceTree<GC>::FileRead(const std::u16string&) [with GC = JunkanGoroshi; std::u16string = std::__cxx11::basic_string<char16_t>]’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/compiler-state.hpp:65:19:   required from here
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/ssz/ssz/sourcetree.hpp:2105:49: error: ‘each’ was not declared in this scope
+ 2105 |                 for each(auto it in pst->rettype){
+      |                                                 ^
+make[2]: *** [CMakeFiles/ssz.dir/build.make:76: CMakeFiles/ssz.dir/ssz.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/ssz.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

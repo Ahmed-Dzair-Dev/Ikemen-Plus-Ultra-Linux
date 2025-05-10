@@ -1932,8 +1932,8 @@ template<typename GC> struct SourceTree
 			}
 			break;
 		}
-		if (!refstar) for each(auto it in type){
-			if (it == KAKERU_TOKEN){
+		if (!refstar) for (auto& it : type) {
+                        if (it == KAKERU_TOKEN){
 				src.addErrMes(L("'*' cannot be used as an argument."));
 				return false;
 			}
@@ -2102,7 +2102,7 @@ template<typename GC> struct SourceTree
 				(void*)(tk.data() + otksize),
 				pst->rettype.data(), sizeof(intptr_t)*pst->rettype.size());
 		}
-		for each(auto it in pst->rettype){
+		for (auto& it : pst->rettype) {
 			if (it == KAKERU_TOKEN){
 				src.addErrMes(L("'*' cannot be used as the return value of an anonymous function."));
 				return -1;

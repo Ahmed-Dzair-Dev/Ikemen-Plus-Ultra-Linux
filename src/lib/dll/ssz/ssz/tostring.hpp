@@ -1,4 +1,4 @@
-
+#include <cmath> // For std::isnan, std::isfinite
 template<typename T> static std::WSTR IntToString(T i)
 {
 #ifdef _WIN32
@@ -27,12 +27,12 @@ static std::WSTR ToFloatString(std::WSTR numStr)
 
 static std::WSTR InfiniteString(double d)
 {
-	return _isnan(d) ? L("nan") : (d < 0 ? L("-inf") : L("inf"));
+	return std::isnan(d) ? L("nan") : (d < 0 ? L("-inf") : L("inf"));
 }
 
 template<typename T> static std::WSTR FloatToString(T f)
 {
-	if(!_finite(f)) return InfiniteString(f);
+	if(!std::isfinite(f)) return InfiniteString(f);
 	std::wstringstream ss;
 	ss.precision(sizeof(T) > 4 ? 16 : 7);
 	ss << f;

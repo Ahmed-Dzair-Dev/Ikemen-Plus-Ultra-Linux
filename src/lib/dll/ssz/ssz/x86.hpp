@@ -2728,7 +2728,7 @@ struct BinaryCode
 		if(!MovHnsReg8(at, adr, CL)) return false;
 		return true;
 	}
-	MEMBER void not()
+	MEMBER void bitwiseNot()
 	{
 		NotReg(EAX);
 	}
