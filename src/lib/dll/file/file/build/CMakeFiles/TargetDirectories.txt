@@ -1,0 +1,7 @@
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/file.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/edit_cache.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/rebuild_cache.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/list_install_components.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/install.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/install/local.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/file/file/build/CMakeFiles/install/strip.dir

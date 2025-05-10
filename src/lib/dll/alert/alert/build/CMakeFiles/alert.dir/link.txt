@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -m32  -m32 -shared -Wl,-soname,libalert.so -o lib/libalert.so CMakeFiles/alert.dir/alert.cpp.o 

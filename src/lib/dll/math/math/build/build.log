@@ -1,0 +1,23 @@
+[ 50%] Building CXX object CMakeFiles/math.dir/math.cpp.o
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp: In function ‘bool IsFinite(PluginUtil*, double)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp:76:16: error: ‘_finite’ was not declared in this scope; did you mean ‘finite’?
+   76 |         return _finite(x) != 0;
+      |                ^~~~~~~
+      |                finite
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp: In function ‘bool IsInf(PluginUtil*, double)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp:81:16: error: ‘_isnan’ was not declared in this scope; did you mean ‘__isnan’?
+   81 |         return _isnan(x) == 0 && _finite(x) == 0;
+      |                ^~~~~~
+      |                __isnan
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp:81:34: error: ‘_finite’ was not declared in this scope; did you mean ‘finite’?
+   81 |         return _isnan(x) == 0 && _finite(x) == 0;
+      |                                  ^~~~~~~
+      |                                  finite
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp: In function ‘bool IsNaN(PluginUtil*, double)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/math/math/math.cpp:86:16: error: ‘_isnan’ was not declared in this scope; did you mean ‘__isnan’?
+   86 |         return _isnan(x) != 0;
+      |                ^~~~~~
+      |                __isnan
+make[2]: *** [CMakeFiles/math.dir/build.make:76: CMakeFiles/math.dir/math.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/math.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
