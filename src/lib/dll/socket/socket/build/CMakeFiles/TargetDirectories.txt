@@ -1,0 +1,7 @@
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/socket.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/edit_cache.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/rebuild_cache.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/list_install_components.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/install.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/install/local.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/socket/socket/build/CMakeFiles/install/strip.dir

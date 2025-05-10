@@ -1,0 +1,58 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/build
+make[2]: Warning: File 'CMakeFiles/shell.dir/flags.make' has modification time 1023036 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'CMakeFiles/shell.dir/flags.make' has modification time 1023036 s in the future
+[ 50%] Building CXX object CMakeFiles/shell.dir/shell.cpp.o
+In file included from /home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:24:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/../../ssz/ssz/sszdef.h:35: warning: "__stdcall" redefined
+   35 | #define __stdcall __attribute__((stdcall))
+      | 
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:15: note: this is the location of the previous definition
+   15 | #define __stdcall  // Define __stdcall as empty on non-Windows platforms
+      | 
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:1: error: unterminated #else
+    1 | #ifdef _WIN32
+      | 
+In file included from /home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:27:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/../../ssz/ssz/pluginutil.hpp: In member function ‘void PluginUtil::setSSZFunc()’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/../../ssz/ssz/pluginutil.hpp:45:57: error: invalid conversion from ‘void* (__attribute__((stdcall)) *)(intptr_t)’ {aka ‘void* (__attribute__((stdcall)) *)(int)’} to ‘void* (*)(intptr_t)’ {aka ‘void* (*)(int)’} [-fpermissive]
+   45 |     sszrefnewfunc = (void* (__stdcall *)(intptr_t))psf->newfunc;
+      |                                                    ~~~~~^~~~~~~
+      |                                                         |
+      |                                                         void* (__attribute__((stdcall)) *)(intptr_t) {aka void* (__attribute__((stdcall)) *)(int)}
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/../../ssz/ssz/pluginutil.hpp:46:56: error: invalid conversion from ‘void (__attribute__((stdcall)) *)(void*)’ to ‘void (*)(void*)’ [-fpermissive]
+   46 |     sszrefdeletefunc = (void (__stdcall *)(void*))psf->deletefunc;
+      |                                                   ~~~~~^~~~~~~~~~
+      |                                                        |
+      |                                                        void (__attribute__((stdcall)) *)(void*)
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp: At global scope:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:32:13: error: no declaration matches ‘std::string PluginUtil::refToStr(Reference)’
+   32 | std::string PluginUtil::refToStr(Reference ref) {
+      |             ^~~~~~~~~~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:32:13: note: no functions named ‘std::string PluginUtil::refToStr(Reference)’
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/../../ssz/ssz/pluginutil.hpp:27:8: note: ‘struct PluginUtil’ defined here
+   27 | struct PluginUtil
+      |        ^~~~~~~~~~
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp: In function ‘bool ShellOpen(PluginUtil*, bool, bool, Reference, Reference, Reference)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:81:25: error: ‘struct PluginUtil’ has no member named ‘refToStr’; did you mean ‘refToWstr’?
+   81 |     std::string f = pu->refToStr(file);
+      |                         ^~~~~~~~
+      |                         refToWstr
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:82:25: error: ‘struct PluginUtil’ has no member named ‘refToStr’; did you mean ‘refToWstr’?
+   82 |     std::string p = pu->refToStr(param);
+      |                         ^~~~~~~~
+      |                         refToWstr
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:83:25: error: ‘struct PluginUtil’ has no member named ‘refToStr’; did you mean ‘refToWstr’?
+   83 |     std::string d = pu->refToStr(direct);
+      |                         ^~~~~~~~
+      |                         refToWstr
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp: In function ‘bool MoveTrash(PluginUtil*, Reference)’:
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/lib/dll/shell/shell/shell.cpp:140:25: error: ‘struct PluginUtil’ has no member named ‘refToStr’; did you mean ‘refToWstr’?
+  140 |     std::string f = pu->refToStr(file);
+      |                         ^~~~~~~~
+      |                         refToWstr
+make[2]: *** [CMakeFiles/shell.dir/build.make:76: CMakeFiles/shell.dir/shell.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/shell.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2

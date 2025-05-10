@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -m32  -m32 -shared -Wl,-soname,libregex.so -o libregex.so CMakeFiles/regex.dir/regex.cpp.o 
