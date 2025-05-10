@@ -1,0 +1,1 @@
+/usr/bin/c++  -m32 -O3 -DNDEBUG -DNDEBUG -DWIN32 -D_WINDOWS -O3 -O3 -ffast-math CMakeFiles/Ikemen_Plus_Ultra.dir/main.cpp.o -o Ikemen_Plus_Ultra 

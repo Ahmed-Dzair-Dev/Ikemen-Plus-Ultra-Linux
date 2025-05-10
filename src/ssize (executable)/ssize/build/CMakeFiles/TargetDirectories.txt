@@ -1,0 +1,7 @@
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/Ikemen_Plus_Ultra.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/edit_cache.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/rebuild_cache.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/list_install_components.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/install.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/install/local.dir
+/home/sis/Documents/ikemenplus/Ikemen-Plus-Ultra-srcOnly/src/ssize (executable)/ssize/build/CMakeFiles/install/strip.dir
